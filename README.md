@@ -134,7 +134,7 @@ Será considerado nos casos de usos como ator primário padrão o usuário final
 - Pré-condições: devem existir pelo menos 10 flashcards no sistema
 - Descrição:
 1. Usuário clica no botão de "estudar" no menu inicial
-2. Aparece uma interface com o flashcard sorteado no meio, e no canto inferior os botões "Fácil", "Médio", "Difícil" ou "Sair".
+2. Aparece uma interface com o flashcard sorteado no meio, e no canto inferior os botões "Acertou" e "Errou".
 3. O usuário aperta no título do flashcard e aparece a descrição dele no meio da interface 
 4. O usuário aperta em um dos botões conforme a necessidade
 5. Aparece outro flashcard, repetindo o passo 2 até todos os flashcards serem usados
