@@ -12,41 +12,48 @@
 10. basear-se na proposta de Leitner quando do sorteio de flashcards.
 
 - A lógica geral do projeto segue o diagramas UML abaixo:
-
-![Figura 1: Diagrama UML](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Legenda.png) 
-![Figura 2: Diagrama UML](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte1.png) 
-![Figura 3: Diagrama UML](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte2.png) 
-![Figura 4: Diagrama UML](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte3.png) 
-![Figura 5: Diagrama UML](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte4.png) 
-![Figura 6: Diagrama UML](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte5.png) 
-![Figura 7: Diagrama UML](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte6.png) 
-![Figura 8: Diagrama UML](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte7.png) 
+## Diagrama legenda:
+![Figura 1: Diagrama Legenda](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Legenda.png) 
+## Diagrama UML 1:
+![Figura 2: Diagrama UML Parte 1](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte1.png) 
+## Diagrama UML 2:
+![Figura 3: Diagrama UML Parte 2](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte2.png) 
+## Diagrama UML 3:
+![Figura 4: Diagrama UML Parte 3](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte3.png) 
+## Diagrama UML 4:
+![Figura 5: Diagrama UML Parte 4](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte4.png) 
+## Diagrama UML 5:
+![Figura 6: Diagrama UML Parte 5](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte5.png) 
+## Diagrama UML 6:
+![Figura 7: Diagrama UML Parte 6](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte6.png) 
+## Diagrama UML 7:
+![Figura 8: Diagrama UML Parte 7](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte7.png) 
 
 ## Modelagem de Arquitetura
 ### Visão lógica
 
-- A funcionalidade do sistema e sua aplicação em cenários reais é relacionada a criação de um programa em Python que implementa a proposta Leitner com a utilização de flashcards para auxiliar o usuário final no estudo de tópicos de sua escolha.
-O usuário fornecerá os tópicos que logicamente serão armazenados na parte da frente dos flashcards, e as respostas que serão armazenadas na parte de trás. Agora utilizando do método Leitner, será necessário a categorização de dificuldade dos tópicos para o usuário, introduzindo-os em cada caixa como na imagem a seguir:
+- A funcionalidade do sistema e sua aplicação em cenários reais é relacionada a criação de um programa em Python (desktop) um programa em Dart (celulares) que implementam a proposta Leitner com a utilização de flashcards para auxiliar o usuário final no estudo de tópicos de sua escolha.
+	O usuário fornecerá perguntas que logicamente serão armazenadas na parte da frente dos flashcards, e as respostas que serão armazenadas na parte de trás. Agora utilizando do método Leitner cada flashcard será introduzido em uma caixa como na imagem a seguir:
 
 
 ![Figura 9: Sistema Leitner (autor: ZIRGUEZI)](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Leitner.png)
 
-- Logo após, o usuário começará o método de estudo respondendo às perguntas da caixa 1, que são categorizadas como mais difíceis, ou seja, que o usuário mais precisa treinar para memorizar a resposta, tendo as respondido corretamente, elas são transferidas para as caixas em diante, no exemplo, as caixas 2 e 3, categorizadas como médias e fáceis, respectivamente, que devido à dificuldade reduzida, demoram mais tempo para aparecer para o usuário. Entretanto, quando estes flashcards aparecerem, e o usuário acaba errando a resposta, elas retornam a caixa um, demonstrando que o usuário ainda não conseguiu memorizar o conceito, portanto necessita retomar o tópico para concretizar o assunto em sua cabeça, e assim continua o ciclo da utilização dos flashcards do método em questão.
+- Logo após, o usuário começará o método de estudo respondendo às perguntas da caixa 1, que são categorizadas como mais difíceis, ou seja, que o usuário mais precisa treinar para memorizar a resposta, tendo as respondido corretamente, elas são transferidas para as caixas em diantes, no exemplo, as caixas 2 e 3, categorizadas como médias e fáceis, respectivamente, que devido a dificuldade reduzida, demoram mais tempo para aparecer para o usuário. Entretanto, quando estes flashcards aparecerem, e o usuário acaba errando a resposta, elas retornam a caixa um, demonstrando que o usuário ainda não conseguiu memorizar o conceito, portanto necessita retomar o tópico para concretizar o assunto em sua cabeça, e assim continua o ciclo da utilização dos flashcards do método em questão.
 
 
 
 ### Visão do processo
-- Com relação a visão do processo, no âmbito do projeto, se tratando de um sistema desenvolvido na linguagem Python, não notamos essencialmente a necessidade de aplicar contundentemente qualquer conceito relacionado a partes dinâmicas (escalabilidade, distribuição e etc.), nosso projeto fará do uso, contudo, de simultaneidade por exemplo, para atender ao requisito de "animação" de virar um flashcard. Nessa animação será necessário a aplicação de Multithreading.
+- Com relação a visão do processo, no âmbito do projeto, se tratando de um programa desenvolvido na linguagem Python para desktops e na linguagem Dart para celulares, não notamos essencialmente a necessidade de aplicar contundentemente qualquer conceito relacionado a partes dinâmicas (escalabilidade, distribuição e etc.), nosso projeto fará do uso, contudo, de simultaneidade por exemplo, para atender ao requisito de "animação" de virar um flashcard. Nessa animação será necessário a aplicação de Multithreading.
 
 ### Visão de desenvolvimento 
-- Como visão de desenvolvimento, temos como intuito a utilização da tecnologia de implementação denominada Python. Escolhemos essa linguagem de programação devido buscarmos um projeto mais eficiente, dessa forma utilizaremos a nossa familiarização com a linguagem, e a disponibilidade e variedade de bibliotecas que nos auxiliarão no desenvolvimento do projeto, além disso utilizaremos um ambiente de desenvolvimento integrado chamado de Visual Studio Code devido a sua disponibilidade de ferramentas.
+- Como visão de desenvolvimento, temos como intuito a utilização da linguagem Python para desktops e na linguagem Dart para celulares. Escolhemos essa linguagem de programação devido buscarmos um projeto mais eficiente, dessa forma utilizaremos a nossa familiarização com a linguagem, e a disponibilidade e variedade de bibliotecas que nos auxiliarão no desenvolvimento do projeto, além disso utilizaremos um ambiente de desenvolvimento integrado chamado de Visual Studio Code devido a sua disponibilidade de ferramentas.
 Na questão das necessidades do projeto, precisamos implementar a proposta Leitner com a utilização de flashcards, portanto deveremos programar a lógica do mesmo, levando em consideração que devemos necessariamente implementar os requisitos citados no início deste documento.
 Para isso, vamos dividir o projeto em tarefas menores e atribuir prazos para cada uma delas. Isso nos ajudará a manter o projeto organizado e a garantir que estamos progredindo em um ritmo adequado. Além disso, decidimos que o modelo de processo que melhor se adaptará com o nosso projeto é a modelo Spiral, pois ele "fornece potencial para o rápido desenvolvimento de versões cada vez mais completas do software" (PRESSMAN, 2011, p.65), segue abaixo uma imagem do modelo:
 
 ![Figura 10: Modelo Spiral (PRESSMAN)](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Modelo_Spiral.jpg)
 
 ### Visão física
-- A visão física do projeto mostra-se bem simples por ser um projeto que funciona no computador unicamente, se tratando de um código em python que pode ser executado normalmente sem maiores requerimentos relacionados a hardware. Somente estamos descrevendo um arquivo executável gerado por compilação no próprio Visual Studio. Logo basta um computador para a versão de desktop e um celular android para a versão mobile.
+- A visão física do projeto mostra-se bem simples por ser um projeto que funciona no computador unicamente, se tratando de um código em python para desktops e um código em Dart para celulares que pode ser executado normalmente sem maiores requerimentos relacionados a hardware. Somente estamos descrevendo um arquivo executável gerado por compilação no próprio Visual Studio. Logo basta um computador para a versão de desktop e um celular android para a versão mobile.
 
 ## Modelagem de requisitos
 ### Casos de Uso
