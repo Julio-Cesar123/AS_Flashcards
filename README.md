@@ -14,13 +14,13 @@
 - A lógica geral do projeto segue o diagramas UML abaixo:
 
 ![Figura 1: Diagrama UML](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Legenda.png) 
-![Figura 2: Diagrama UML](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte 1.png) 
-![Figura 3: Diagrama UML](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte 2.png) 
-![Figura 4: Diagrama UML](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte 3.png) 
-![Figura 5: Diagrama UML](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte 4.png) 
-![Figura 6: Diagrama UML](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte 5.png) 
-![Figura 7: Diagrama UML](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte 6.png) 
-![Figura 8: Diagrama UML](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte 7.png) 
+![Figura 2: Diagrama UML](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte1.png) 
+![Figura 3: Diagrama UML](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte2.png) 
+![Figura 4: Diagrama UML](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte3.png) 
+![Figura 5: Diagrama UML](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte4.png) 
+![Figura 6: Diagrama UML](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte5.png) 
+![Figura 7: Diagrama UML](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte6.png) 
+![Figura 8: Diagrama UML](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte7.png) 
 
 ## Modelagem de Arquitetura
 ### Visão lógica
