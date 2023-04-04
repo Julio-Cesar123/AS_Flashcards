@@ -11,9 +11,16 @@
 9. a aplicação deverá “animar” um flashcard sempre que ele for virado;
 10. basear-se na proposta de Leitner quando do sorteio de flashcards.
 
-- A lógica geral do projeto segue o diagrama UML abaixo:
+- A lógica geral do projeto segue o diagramas UML abaixo:
 
-![Figura 1: Diagrama UML](UML_geral_imagem.png) 
+![Figura 1: Diagrama UML](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Legenda.png) 
+![Figura 2: Diagrama UML](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte 1.png) 
+![Figura 3: Diagrama UML](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte 2.png) 
+![Figura 4: Diagrama UML](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte 3.png) 
+![Figura 5: Diagrama UML](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte 4.png) 
+![Figura 6: Diagrama UML](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte 5.png) 
+![Figura 7: Diagrama UML](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte 6.png) 
+![Figura 8: Diagrama UML](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Parte 7.png) 
 
 ## Modelagem de Arquitetura
 ### Visão lógica
@@ -22,7 +29,7 @@
 O usuário fornecerá os tópicos que logicamente serão armazenados na parte da frente dos flashcards, e as respostas que serão armazenadas na parte de trás. Agora utilizando do método Leitner, será necessário a categorização de dificuldade dos tópicos para o usuário, introduzindo-os em cada caixa como na imagem a seguir:
 
 
-![Figura 2: Sistema Leitner (autor: ZIRGUEZI)](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Leitner.png)
+![Figura 9: Sistema Leitner (autor: ZIRGUEZI)](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Leitner.png)
 
 - Logo após, o usuário começará o método de estudo respondendo às perguntas da caixa 1, que são categorizadas como mais difíceis, ou seja, que o usuário mais precisa treinar para memorizar a resposta, tendo as respondido corretamente, elas são transferidas para as caixas em diante, no exemplo, as caixas 2 e 3, categorizadas como médias e fáceis, respectivamente, que devido à dificuldade reduzida, demoram mais tempo para aparecer para o usuário. Entretanto, quando estes flashcards aparecerem, e o usuário acaba errando a resposta, elas retornam a caixa um, demonstrando que o usuário ainda não conseguiu memorizar o conceito, portanto necessita retomar o tópico para concretizar o assunto em sua cabeça, e assim continua o ciclo da utilização dos flashcards do método em questão.
 
@@ -36,7 +43,7 @@ O usuário fornecerá os tópicos que logicamente serão armazenados na parte da
 Na questão das necessidades do projeto, precisamos implementar a proposta Leitner com a utilização de flashcards, portanto deveremos programar a lógica do mesmo, levando em consideração que devemos necessariamente implementar os requisitos citados no início deste documento.
 Para isso, vamos dividir o projeto em tarefas menores e atribuir prazos para cada uma delas. Isso nos ajudará a manter o projeto organizado e a garantir que estamos progredindo em um ritmo adequado. Além disso, decidimos que o modelo de processo que melhor se adaptará com o nosso projeto é a modelo Spiral, pois ele "fornece potencial para o rápido desenvolvimento de versões cada vez mais completas do software" (PRESSMAN, 2011, p.65), segue abaixo uma imagem do modelo:
 
-![Figura 3: Modelo Spiral (PRESSMAN)](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Modelo_Spiral.jpg)
+![Figura 10: Modelo Spiral (PRESSMAN)](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Modelo_Spiral.jpg)
 
 ### Visão física
 - A visão física do projeto mostra-se bem simples por ser um projeto que funciona no computador unicamente, se tratando de um código em python que pode ser executado normalmente sem maiores requerimentos relacionados a hardware. Somente estamos descrevendo um arquivo executável gerado por compilação no próprio Visual Studio. Logo basta um computador para a versão de desktop e um celular android para a versão mobile.
