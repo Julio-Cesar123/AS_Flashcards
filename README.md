@@ -22,7 +22,7 @@
 O usuário fornecerá os tópicos que logicamente serão armazenados na parte da frente dos flashcards, e as respostas que serão armazenadas na parte de trás. Agora utilizando do método Leitner, será necessário a categorização de dificuldade dos tópicos para o usuário, introduzindo-os em cada caixa como na imagem a seguir:
 
 
-![Figura 2: Sistema Leitner (autor: ZIRGUEZI)](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/375px-Leitner_system_animation.GIF)
+![Figura 2: Sistema Leitner (autor: ZIRGUEZI)](https://raw.githubusercontent.com/Julio-Cesar123/AS_Flashcards/screenshots/Leitner.png)
 
 - Logo após, o usuário começará o método de estudo respondendo às perguntas da caixa 1, que são categorizadas como mais difíceis, ou seja, que o usuário mais precisa treinar para memorizar a resposta, tendo as respondido corretamente, elas são transferidas para as caixas em diante, no exemplo, as caixas 2 e 3, categorizadas como médias e fáceis, respectivamente, que devido à dificuldade reduzida, demoram mais tempo para aparecer para o usuário. Entretanto, quando estes flashcards aparecerem, e o usuário acaba errando a resposta, elas retornam a caixa um, demonstrando que o usuário ainda não conseguiu memorizar o conceito, portanto necessita retomar o tópico para concretizar o assunto em sua cabeça, e assim continua o ciclo da utilização dos flashcards do método em questão.
 
